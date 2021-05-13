@@ -301,6 +301,26 @@ img {
     top: 250;
 }
 
+@media only screen and (max-width: 996px) {
+    .hero__img-container {
+        width: 750px;
+        height: 450px;
+        display: flex;
+        margin: auto;
+    } 
+}
+
+@media only screen and (max-width: 768px) {
+    .hero__img-container {
+        width: 550px;
+        height: 350px;
+        display: flex;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) 
+
 
 /* MAIN */
 
