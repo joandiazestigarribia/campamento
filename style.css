@@ -251,12 +251,6 @@ img {
     }
 }
 
-@media only screen and (max-width: 568px) {
-    .nav__header {
-        /* width: 60%; */
-    }
-}
-
 
 /* hero */
 
@@ -331,6 +325,18 @@ img {
         height: 180px;
         display: flex;
         margin: auto;
+    }
+
+    .glide__arrow {
+        width: 0.5rem;
+        height: 0.5rem;
+        top: 100;
+    }
+
+    .hero .glide__arrow svg {
+        width: 2rem;
+        margin-left: -1rem;
+        margin-top: -0.8rem;
     }
 }
 
@@ -536,6 +542,17 @@ img {
 ::placeholder {
     color: var(--white);
     font-size: 20px;
+}
+
+@media only screen and (max-width: 568px) {
+    .primary__title {
+        font-size: 25px;
+    }
+
+    .text__we {
+        font-size: 10px;
+        margin-top: 2rem;
+    }
 }
 
 /* footer */
