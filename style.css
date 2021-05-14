@@ -253,7 +253,7 @@ img {
 
 @media only screen and (max-width: 568px) {
     .nav__header {
-        width: 60%;
+        /* width: 60%; */
     }
 }
 
