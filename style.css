@@ -551,10 +551,12 @@ img {
     }
 
     .text__we {
+        width: 100%;
         font-size: 15px;
-        margin-top: 2rem;
+        /* margin-top: 2rem;
         margin-top: -4.6rem;
-        margin-left: 12rem;
+        margin-left: 12rem; */
+        margin-top: 2rem;
     }
 }
 
