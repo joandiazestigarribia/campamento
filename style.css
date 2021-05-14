@@ -251,6 +251,12 @@ img {
     }
 }
 
+@media only screen and (max-width: 568px) {
+    .nav__header {
+        width: 60%;
+    }
+}
+
 
 /* hero */
 
@@ -319,7 +325,14 @@ img {
     }
 }
 
-@media only screen and (max-width: 768px) 
+@media only screen and (max-width: 568px) {
+    .hero__img-container {
+        width: 300px;
+        height: 180px;
+        display: flex;
+        margin: auto;
+    }
+}
 
 
 /* MAIN */
