@@ -547,11 +547,14 @@ img {
 @media only screen and (max-width: 568px) {
     .primary__title {
         font-size: 25px;
+        margin-left: 2rem;
     }
 
     .text__we {
-        font-size: 10px;
+        font-size: 15px;
         margin-top: 2rem;
+        margin-top: -4.6rem;
+        margin-left: 12rem;
     }
 }
 
