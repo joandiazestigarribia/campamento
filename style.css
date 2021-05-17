@@ -605,21 +605,12 @@ img {
         margin-top: -0.8rem;
     }
 
-    .modal {
-         /* width: 20%;
-         height: 20%; */
-    }
-
     .modal-content {
-        width: 150px;
-        height: 80px;
-        top: 25%;
-        left: 25%;
-        transform: translate(-75%, -75%);
+        width: 95%;
     }
 
     .map__img {
-        width: 350px;
+        width: 345px;
         height: 200px;
     }
 }
@@ -631,4 +622,8 @@ img {
 }
 
 
-
+@media only screen and (max-width: 568px) {
+    .footer__camp {
+        font-size: 12px;
+    }
+}
