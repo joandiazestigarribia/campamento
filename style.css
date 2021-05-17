@@ -453,8 +453,6 @@ img {
     opacity: 1;
     width: 350px;
     height: 200px;
-    /* filter: alpha(opacity=100); */
-    /* -webkit-backface-visibility: hidden; */
 }
 
 .modal-hover-opacity:hover {
@@ -548,6 +546,7 @@ img {
     .primary__title {
         font-size: 25px;
         margin-left: 2rem;
+        margin-bottom: 3.5rem;
     }
 
     .text__we {
@@ -582,6 +581,46 @@ img {
         height: 65px;
         margin-left: 2rem;
         margin-top: -1.2rem;
+    }
+
+    .services__text {
+        font-size: 25px;
+        margin-left: 2rem;
+        margin-bottom: 3.5rem;
+    }
+
+    .works__text {
+        font-size: 25px;
+        margin-left: 2rem;
+    }
+
+    .works__imgs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .works__images {
+        width: 130px;
+        height: 75px;
+        padding-left: 2rem;
+        margin-top: -0.8rem;
+    }
+
+    .modal {
+         /* width: 20%;
+         height: 20%; */
+    }
+
+    .modal-content {
+        width: 150px;
+        height: 80px;
+        top: 25%;
+        left: 25%;
+        transform: translate(-75%, -75%);
+    }
+
+    .map__img {
+        width: 350px;
+        height: 200px;
     }
 }
 
