@@ -609,6 +609,42 @@ img {
         width: 95%;
     }
 
+    .contact h1 {
+        font-size: 25px;
+        margin-top: 3rem;
+    }
+
+    .p1, 
+    .p2 {
+        font-size: 15px;
+    }
+
+    .form__camp {
+        margin-top: 10rem;
+        margin-right: -2.5rem;
+    }
+
+    .form-group {
+        width: 300px;
+    }
+
+    .form-control.name-field, .form-control.mail-field, .form-control.telephone-field, .form-control.message-field {
+        width: 300px;
+    }
+
+    .form-control.message-field {
+        height: 70px;
+    }
+
+    ::placeholder {
+        font-size: 12px;
+    }
+
+    .btn.btn-primary {
+        font-size: 12px;
+        margin-left: 20rem;
+    }
+
     .map__img {
         width: 345px;
         height: 200px;
