@@ -312,14 +312,47 @@ img {
 
 @media only screen and (max-width: 768px) {
     .hero__img-container {
-        width: 550px;
-        height: 350px;
+        width: 700px;
+        height: 400px;
         display: flex;
         margin: auto;
+    }
+
+    .glide__arrow {
+        width: 4rem;
+        height: 4rem;
+        top: 200;
+    }
+
+    .hero .glide__arrow svg {
+        width: 2rem;
+        margin-left: -0.8rem;
+        margin-top: -0.5rem;
     }
 }
 
 @media only screen and (max-width: 568px) {
+    .hero__img-container {
+        width: 500px;
+        height: 280px;
+        display: flex;
+        margin: auto;
+    }
+
+    .glide__arrow {
+        width: 1.5rem;
+        height: 1.5rem;
+        top: 150;
+    }
+
+    .hero .glide__arrow svg {
+        width: 2rem;
+        margin-left: -1rem;
+        margin-top: -0.8rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     .hero__img-container {
         width: 300px;
         height: 180px;
@@ -331,12 +364,6 @@ img {
         width: 0.5rem;
         height: 0.5rem;
         top: 100;
-    }
-
-    .hero .glide__arrow svg {
-        width: 2rem;
-        margin-left: -1rem;
-        margin-top: -0.8rem;
     }
 }
 
@@ -542,6 +569,105 @@ img {
     font-size: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+    .primary__title {
+        font-size: 35px;
+        margin-left: 2rem;
+    }
+
+    .text__we {
+        margin-top: -6.5rem;
+        margin-left: 22rem;
+    }
+
+    .process {
+        width: 650px;
+    }
+
+    .passionate__p {
+        width: 70%;
+    }
+
+    .fede {
+        width: 290px;
+        height: 140px;
+        margin-left: -10rem;
+        margin-top: -1.7rem;
+    }
+
+    .lu {
+        width: 345px;
+        height: 130px;
+        margin-left: 6rem;
+        margin-top: -0.5rem;
+    }
+
+    .services__text {
+        font-size: 35px;
+        margin-left: 2rem;
+        margin-bottom: 3.5rem;
+    }
+
+    .works__text {
+        font-size: 35px;
+        margin-left: 2rem;
+    }
+
+    .works__images {
+        width: 190px;
+        height: 120;
+        padding-left: 2.5rem;
+        margin-top: -0.8rem;
+    }
+
+    .modal-content {
+        width: 95%;
+    }
+
+    .contact h1 {
+        font-size: 35px;
+        margin-top: 3.5rem;
+        margin-left: -2rem;
+    }
+
+    .p1, 
+    .p2 {
+        font-size: 20px;
+        margin-left: -2rem;
+    }
+
+    .form__camp {
+        margin-top: 4.5rem;
+        margin-right: -1.5rem;
+    }
+
+    .form-group {
+        width: 370px;
+    }
+
+    .form-control.name-field, .form-control.mail-field, .form-control.telephone-field, .form-control.message-field {
+        width: 370px;
+    }
+
+    .form-control.message-field {
+        height: 100px;
+    }
+
+    ::placeholder {
+        font-size: 15px;
+    }
+
+    .btn.btn-primary {
+        font-size: 15px;
+        margin-left: 25rem;
+    }
+
+    .map__img {
+        width: 100%;
+        height: 40%;
+    }
+}
+
 @media only screen and (max-width: 568px) {
     .primary__title {
         font-size: 25px;
@@ -552,14 +678,11 @@ img {
     .text__we {
         width: 100%;
         font-size: 15px;
-        /* margin-top: 2rem;
-        margin-top: -4.6rem;
-        margin-left: 12rem; */
         margin-top: 2rem;
     }
 
     .process {
-        width: 325px;
+        width: 450px;
         margin-top: 2.5rem;
     }
 
@@ -570,16 +693,16 @@ img {
     }
 
     .fede {
-        width: 180px;
-        height: 70px;
-        margin-left: -12rem;
+        width: 170px;
+        height: 90px;
+        margin-left: -8rem;
         margin-top: -1.7rem;
     }
 
     .lu {
-        width: 180px;
-        height: 65px;
-        margin-left: 2rem;
+        width: 220px;
+        height: 85px;
+        margin-left: 8rem;
         margin-top: -1.2rem;
     }
 
@@ -595,7 +718,7 @@ img {
     }
 
     .works__imgs {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .works__images {
@@ -611,7 +734,7 @@ img {
 
     .contact h1 {
         font-size: 25px;
-        margin-top: 3rem;
+        margin-top: 3.5rem;
         margin-left: -2rem;
     }
 
@@ -623,7 +746,7 @@ img {
 
     .form__camp {
         margin-top: 10rem;
-        margin-right: -2.5rem;
+        margin-right: 18rem;
     }
 
     .form-group {
@@ -648,8 +771,39 @@ img {
     }
 
     .map__img {
-        width: 345px;
-        height: 200px;
+        width: 100%;
+        height: 40%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .process {
+        width: 325px;
+    }
+
+    .fede {
+        width: 180px;
+        height: 70px;
+        margin-left: -12rem;
+    }
+
+    .lu {
+        width: 180px;
+        height: 65px;
+        margin-left: 2rem;
+    }
+
+    .works__imgs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact h1 {
+        margin-top: 3rem;
+    }
+
+    .form__camp {
+        margin-right: -2.5rem;
     }
 }
 
