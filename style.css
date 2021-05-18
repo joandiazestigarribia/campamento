@@ -679,6 +679,7 @@ img {
         width: 100%;
         font-size: 15px;
         margin-top: 2rem;
+        margin-left: -0.2rem;
     }
 
     .process {
