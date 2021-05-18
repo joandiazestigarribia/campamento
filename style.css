@@ -612,11 +612,13 @@ img {
     .contact h1 {
         font-size: 25px;
         margin-top: 3rem;
+        margin-left: -2rem;
     }
 
     .p1, 
     .p2 {
         font-size: 15px;
+        margin-left: -2rem;
     }
 
     .form__camp {
