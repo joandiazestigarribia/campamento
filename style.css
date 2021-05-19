@@ -135,8 +135,8 @@ img {
 /* navigation media query */
 
 @media only screen and (max-width: 996px) {
-    .nav__list.show {
-        margin-left: 18rem;
+    .nav__menu .nav__list {
+        margin-left: 20rem;
     }
 }
 
@@ -304,7 +304,7 @@ img {
 @media only screen and (max-width: 996px) {
     .hero__img-container {
         width: 800px;
-        height: 450px;
+        height: 430px;
         display: flex;
         margin: auto;
     } 
